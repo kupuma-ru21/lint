@@ -1,0 +1,15 @@
+{
+  "name": "my-lint",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.ts"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-plugin-my-lint": "file:packages/eslint",
+    "typescript": "^5.0.4"
+  }
+}
